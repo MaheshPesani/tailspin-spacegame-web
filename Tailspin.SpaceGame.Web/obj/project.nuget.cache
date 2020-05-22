@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sLAwpd5+UUz8hysQZgcJwHMCGa3FLI/ryfvTJYfNBqw5AqdTJ1utQ0YiHSmsOX8bIHENYSYeBq0zIqSS21FD3g==",
+  "success": true,
+  "projectFilePath": "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/MaheshPesani 1/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
