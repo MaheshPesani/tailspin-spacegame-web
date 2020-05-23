@@ -22,3 +22,6 @@ dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web
 
 Create a feature branch
 git checkout -b feature/home-page-text
+git add Tailspin.SpaceGame.Web/Views/Home/Index.cshtml
+git commit -m "Improve the text at the top of the home page"
+git push origin feature/home-page-text
