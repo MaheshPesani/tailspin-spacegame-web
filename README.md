@@ -12,3 +12,13 @@ git status
 git add azure-pipelines.yml
 git commit -m "Add the build configuration"
 git push origin code-workflow
+
+git checkout master
+git pull origin master
+
+Build and run the web application
+dotnet build --configuration Release
+dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web
+
+Create a feature branch
+git checkout -b feature/home-page-text
