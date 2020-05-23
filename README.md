@@ -1,3 +1,5 @@
+[![Build Status](https://maheshpesani.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/MaheshPesani.tailspin-spacegame-web?branchName=master)](https://maheshpesani.visualstudio.com/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=18&branchName=master)
+
 For more details:
 https://aka.ms/devops-build
 
