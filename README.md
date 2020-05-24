@@ -33,3 +33,5 @@ git checkout master
 git pull origin master
 git checkout feature/home-page-text
 git merge master
+
+git checkout -b bugfix/home-page-typo
