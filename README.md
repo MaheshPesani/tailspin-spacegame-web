@@ -35,3 +35,8 @@ git checkout feature/home-page-text
 git merge master
 
 git checkout -b bugfix/home-page-typo
+
+Tests:
+dotnet build --configuration Release
+dotnet test --configuration Release --no-build
+dotnet test Tailspin.SpaceGame.Web.Tests --configuration Release --no-build --logger trx
