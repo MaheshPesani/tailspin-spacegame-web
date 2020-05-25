@@ -40,3 +40,26 @@ Tests:
 dotnet build --configuration Release
 dotnet test --configuration Release --no-build
 dotnet test Tailspin.SpaceGame.Web.Tests --configuration Release --no-build --logger trx
+
+
+Code-Coverage:
+dotnet tool install --global dotnet-reportgenerator-globaltool --version 4.1.1
+dotnet test --no-build \
+  --configuration Release \
+  /p:CollectCoverage=true \
+  /p:CoverletOutputFormat=cobertura \
+  /p:CoverletOutput=./TestResults/Coverage/
+
+If the command fails, try running it like this:
+  MSYS2_ARG_CONV_EXCL="*" dotnet test --no-build \
+  --configuration Release \
+  /p:CollectCoverage=true \
+  /p:CoverletOutputFormat=cobertura \
+  /p:CoverletOutput=./TestResults/Coverage/
+
+  $HOME/.dotnet/tools/reportgenerator \
+  -reports:./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.cobertura.xml \
+  -targetdir:./CodeCoverage \
+  -reporttypes:HtmlInline_AzurePipelines
+
+  rm -rf CodeCoverage/
