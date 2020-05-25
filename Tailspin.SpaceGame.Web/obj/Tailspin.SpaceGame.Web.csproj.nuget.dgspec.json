@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj": {}
+    "/Users/MaheshPesani 1/Documents/MP/Projects/GitHub/tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj": {}
   },
   "projects": {
-    "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj": {
+    "/Users/MaheshPesani 1/Documents/MP/Projects/GitHub/tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
+        "projectUniqueName": "/Users/MaheshPesani 1/Documents/MP/Projects/GitHub/tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
         "projectName": "Tailspin.SpaceGame.Web",
-        "projectPath": "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
+        "projectPath": "/Users/MaheshPesani 1/Documents/MP/Projects/GitHub/tailspin-spacegame-web/Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj",
         "packagesPath": "/Users/MaheshPesani 1/.nuget/packages/",
-        "outputPath": "/Users/MaheshPesani 1/Documents/MP/Projects/dotnetcore/mvp-space-game-cicd/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/obj/",
+        "outputPath": "/Users/MaheshPesani 1/Documents/MP/Projects/GitHub/tailspin-spacegame-web/Tailspin.SpaceGame.Web/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
